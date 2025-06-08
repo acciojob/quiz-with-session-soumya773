@@ -1,1 +1,39 @@
 /*  your css code here. If applicable */
+body {
+  font-family: Arial, sans-serif;
+  background: #f8f8f8;
+  padding: 20px;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+h1 {
+  text-align: center;
+}
+
+#questions > div {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-left: 20px;
+}
+
+#submit {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#score {
+  margin-top: 20px;
+  font-weight: bold;
+  text-align: center;
+}
