@@ -1,38 +1,28 @@
-const questions = [
+ const questions = [
   {
-    question: "Which language runs in a web browser?",
-    options: ["Java", "C", "Python", "JavaScript"],
-    answer: 3
-  },
-  {
-    question: "What does CSS stand for?",
-    options: [
-      "Central Style Sheets",
-      "Cascading Style Sheets",
-      "Cascading Simple Sheets",
-      "Cars SUVs Sailboats"
-    ],
-    answer: 1
-  },
-  {
-    question: "What does HTML stand for?",
-    options: [
-      "Hypertext Markup Language",
-      "Hyperloop Machine Language",
-      "Helicopters Terminals Motorboats Lamborginis",
-      "Hyperlink Machine Language"
-    ],
+    question: "What is the capital of France?",
+    options: ["Paris", "London", "Berlin", "Madrid"],
     answer: 0
   },
   {
-    question: "What year was JavaScript launched?",
-    options: ["1996", "1995", "1994", "None of the above"],
+    question: "Which planet is known as the Red Planet?",
+    options: ["Earth", "Mars", "Jupiter", "Venus"],
     answer: 1
   },
   {
-    question: "Which of the following is not a JavaScript framework?",
-    options: ["React", "Angular", "Vue", "Laravel"],
+    question: "What gas do plants absorb from the atmosphere?",
+    options: ["Oxygen", "Carbon Dioxide", "Nitrogen", "Hydrogen"],
+    answer: 1
+  },
+  {
+    question: "Which ocean is the largest?",
+    options: ["Atlantic", "Indian", "Arctic", "Pacific"],
     answer: 3
+  },
+  {
+    question: "Who wrote 'Romeo and Juliet'?",
+    options: ["Charles Dickens", "Jane Austen", "William Shakespeare", "Mark Twain"],
+    answer: 2
   }
 ];
 
